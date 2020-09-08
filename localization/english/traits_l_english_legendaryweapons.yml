@@ -1,0 +1,4 @@
+﻿l_english:
+ trait_legendaryweapons_mjolnir:0 "Mjölnir"
+ trait_legendaryweapons_mjolnir_desc:0 "This character wields Mjölnir, the mighty hammer of Thor."
+ trait_legendaryweapons_mjolnir_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wields Mjölnir, the mighty hammer of Thor."

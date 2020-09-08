@@ -1,0 +1,20 @@
+legendaryweapons_mjolnir = {
+    index = 5700
+
+    prowess = 25
+    martial = 5
+    monthly_prestige_gain_mult = 0.2
+
+    desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_legendaryweapons_mjolnir_desc
+			}
+			desc = trait_legendaryweapons_mjolnir_character_desc
+		}
+	}
+
+}
