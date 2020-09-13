@@ -3,7 +3,7 @@ legendaryweapons_mjolnir = {
 
     prowess = 25
     martial = 5
-    monthly_prestige_gain_mult = 0.2
+    monthly_piety_gain_mult = 0.2
 
     desc = {
 		first_valid = {
@@ -16,5 +16,24 @@ legendaryweapons_mjolnir = {
 			desc = trait_legendaryweapons_mjolnir_character_desc
 		}
 	}
+}
 
+legendaryweapons_excalibur = {
+	index = 5701
+
+    prowess = 10
+    diplomacy = 5
+    monthly_prestige_gain_mult = 0.2
+
+    desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_legendaryweapons_excalibur_desc
+			}
+			desc = trait_legendaryweapons_excalibur_character_desc
+		}
+	}
 }
