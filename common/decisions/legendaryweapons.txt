@@ -1,0 +1,24 @@
+find_excalibur_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+
+    desc = find_excalibur_decision_desc
+    selection_tooltip = find_excalibur_decision_tooltip
+    
+    is_shown = {
+    	is_ruler = yes
+    	prestige_level <= 2
+    	dynasty.dynasty_prestige_level <= medium_dynasty_prestige_level
+    }
+    
+    effect = {
+		add_character_modifier = {
+			modifier = vow_of_poverty_modifier
+		}
+
+		stress_impact = {
+			greedy = major_stress_impact_gain
+			cynical = medium_stress_impact_gain
+			ambitious = minor_stress_impact_gain
+		}
+	}
+}

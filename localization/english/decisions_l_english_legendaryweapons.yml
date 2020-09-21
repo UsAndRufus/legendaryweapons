@@ -1,0 +1,11 @@
+﻿l_english:
+ find_excalibur_decision:0 "Search for Excalibur"
+ find_excalibur_decision_desc:0 "Search for Excalibur"
+ find_excalibur_decision_tooltip:1 "Start the quest to find [Excalibur|E], legendary sword of Arthur."
+ find_excalibur_decision_desc:0 "#F Excalibur, the noble sword of King Arthur, is out there somewhere. I must find it, and with it I shall unite Britain once again!#!"
+ find_excalibur_decision_start:1 "You begin your quest for #V Excalibur#!"
+ find_excalibur_decision_tt_header:0 "A successful Hunt will:"
+ find_excalibur_decision_prestige:1 "You may get opportunities to increase your [prestige|E]"
+ find_excalibur_decision_stress:0 "#P    Reduce your [stress|E]#!"
+ find_excalibur_decision_stress_lazy:0 "#N You will not lose [stress|E] since you are [GetTrait('lazy').GetName( GetPlayer )]#!"
+ find_excalibur_decision_confirm:0 "Onwards to glory!"
