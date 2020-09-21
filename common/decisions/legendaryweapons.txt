@@ -11,14 +11,28 @@ find_excalibur_decision = {
     }
     
     effect = {
-		add_character_modifier = {
-			modifier = vow_of_poverty_modifier
-		}
+		custom_tooltip = find_excalibur_decision_start
 
-		stress_impact = {
-			greedy = major_stress_impact_gain
-			cynical = medium_stress_impact_gain
-			ambitious = minor_stress_impact_gain
+		#Stress gain if craven
+		if = {
+			limit = {
+				has_trait = craven
+			}
+			stress_impact = {
+				base = medium_stress_gain
+				ambitious = activity_stress_loss_impact
+			}
+		}
+		
+		hidden_effect = {
+			random_sub_realm_barony = {
+				title_province = {
+					spawn_activity = {
+						type = activity_hunt
+						owner = root
+					}
+				}
+			}
 		}
 	}
 }
